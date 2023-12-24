@@ -1,0 +1,204 @@
+
+.HomePage {
+    letter-spacing: 1.5px;
+    background-color: #f5f5f5;
+}
+
+.contentDiv{
+
+    margin-top: 150px;
+}
+
+.videoDiv{
+    width: 100%;
+    height: 68vh;
+
+}
+
+.video1{
+    width: 100%;
+    height: 68vh;
+    object-fit: cover;
+
+}
+
+.scroll-down-arrow1{
+    position: relative;
+    top: 35px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #c13327;
+    cursor: pointer;
+    }
+
+.card1{
+    background-color: #f5f5f5; 
+}
+
+.card2{
+    background-color: #f5f5f5; 
+}
+
+.mobile-layout{
+    display: none;
+}
+
+.card3{
+    background-color: #0A1E6A; 
+}
+
+/* images */
+
+
+.image1{
+    clip-path: polygon(0% 0%, 82.5% 0%, 100% 100%, 0% 100%);
+}
+
+.image2{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 16.5% 100%);
+}
+
+.image3{
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 65% 100%);
+
+}
+
+
+.card-titleZ1 {
+    /* padding-right: 120px;  */
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline 3px #c13327;
+    color: #0A1E6A;
+    
+}
+
+.card-miniTitleZ1 {
+    /* padding-right: 120px; */
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 28px;
+    opacity: 0.9;
+}
+
+.card-textZ1 {
+    /* padding-right: 120px; */
+    text-align: center;
+    line-height: 3.5rem;
+    color: #0A1E6A;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.card-titleY2 {
+    /* padding-right: 120px;  */
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline 3px #c13327;
+    color: #0A1E6A;
+    
+}
+
+.card-miniTitleY2 {
+    /* padding-right: 120px; */
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 28px;
+    opacity: 0.9;
+}
+
+.card-textY2 {
+    /* padding-right: 120px; */
+    text-align: center;
+    line-height: 3.5rem;
+    color: #0A1E6A;;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.card-titleZ3 {
+    /* padding-right: 120px;  */
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline 3px #c13327;
+    color: #f5f5f5;
+    
+}
+
+.card-miniTitleZ3 {
+    /* padding-right: 120px; */
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 28px;
+    opacity: 0.9;
+}
+
+.card-textZ3 {
+    /* padding-right: 120px; */
+    text-align: center;
+    line-height: 3.5rem;
+    color: #f5f5f5;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+
+
+.elementor-shape.elementor-shape-bottom svg{
+    fill: #f5f5f5;
+    width: 100%;
+    height: 45px;
+    transform: rotate(180deg);
+    /* margin-top: -90px; */
+    position:relative;
+    left: 0;
+    bottom: 49px;
+
+}
+
+/* Resulotions */
+
+/* Styles for phones */ 
+@media (max-width: 576px) {
+    .image1,.image2,.image3{
+        clip-path: none;
+    }
+
+    .mobile-layout {
+        display: block;
+      }
+      
+      .card2 > .row {
+        display: none; 
+      }
+  }
+
+/* Styles for iPads */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .image1,.image2,.image3{
+        clip-path: none;
+    }
+
+    .mobile-layout {
+        display: block;
+      }
+      
+      .card2 > .row {
+        display: none; 
+      }
+  }
+
+/* Styles for laptops */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .image1,.image2,.image3{
+        clip-path: none;
+    }
+}
+
+/* Styles for large screens */
+@media (min-width: 1200px) { 
+    /* .image1,.image2,.image3{
+        clip-path: none;
+    } */
+  }

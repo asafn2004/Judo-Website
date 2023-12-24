@@ -1,0 +1,30 @@
+.MainLayout {
+    /* height: 100%; */
+    /* שיראה כמו שצריך במספר דפדפנים */
+    box-sizing: border-box;
+    display: grid;
+    /* חלוקת הדף ממש:  */
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .MainLayout > header, main, footer {
+    /* מיזוג תאים כמו באקסל */
+    grid-column: span 6;
+  }
+
+  
+  .MainLayout,
+  .MainLayout > * {
+    /* border: 1px solid rgba(128, 128, 128, 0.362); */
+    box-sizing: border-box;
+  }
+  
+ .whatsappSticky, .whatsappSticky img{
+  position: fixed;
+  bottom: 38px;
+  right: 20px;
+z-index: 9999;
+width: 35px;
+height: 35px;
+ }
