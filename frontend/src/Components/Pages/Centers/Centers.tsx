@@ -9,7 +9,7 @@ import "./Centers.css";
 
 function Centers(): JSX.Element {
 
-  const imgURL = "http://18.196.64.252:5000/images/";
+  const imgURL = "http://18.184.186.58:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
   return (
