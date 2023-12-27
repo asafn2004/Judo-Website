@@ -5,7 +5,7 @@ import "./MainLayout.css";
 
 function MainLayout(): JSX.Element {
   
-  const imgURL = "http://35.159.16.221:5000/images/";
+  const imgURL = "http://35.159.16.221/images/";
   // const videoURL = "http://localhost:5000/video/";
 
   return (

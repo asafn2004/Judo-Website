@@ -12,7 +12,7 @@ import { Keyboard, Grid, Pagination, Navigation } from 'swiper/modules';
 
 function Events(): JSX.Element {
 
-  const imgURL = "http://35.159.16.221:5000/images/Events/";
+  const imgURL = "http://35.159.16.221/images/Events/";
 
     return (
       <>

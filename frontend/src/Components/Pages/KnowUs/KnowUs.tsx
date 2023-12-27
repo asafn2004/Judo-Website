@@ -9,8 +9,8 @@ import { useEffect, useRef, useState } from "react";
 
 function KnowUs(): JSX.Element {
 
-  const imgURL = "http://35.159.16.221:5000/images/";
-  const videoURL = "http://35.159.16.221:5000/video/";
+  const imgURL = "http://35.159.16.221/images/";
+  const videoURL = "http://35.159.16.221/video/";
 
   const tzevetRef = useRef<HTMLDivElement | null>(null);
   const [muted,setMuted] = useState(true);
