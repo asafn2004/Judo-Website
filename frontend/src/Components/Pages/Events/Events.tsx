@@ -12,7 +12,7 @@ import { Keyboard, Grid, Pagination, Navigation } from 'swiper/modules';
 
 function Events(): JSX.Element {
 
-  const imgURL = "http://35.159.16.221/images/Events/";
+  const imgURL = "http://localhost:5000/images/Events/";
 
     return (
       <>
@@ -41,7 +41,7 @@ function Events(): JSX.Element {
         
         
       >
-        <SwiperSlide className="overflow-auto"><img src={imgURL + "judoCompetition.jpg"} alt="תחרות ג'ודו ראשונה לעונה זו" className="event1" /></SwiperSlide>
+        <SwiperSlide className="overflow-auto"><img src={imgURL + "comp260124.jpg"} alt="תחרות ג'ודו ראשונה לעונה זו" className="event1" /></SwiperSlide>
         {/* <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>

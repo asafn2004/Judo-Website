@@ -2,8 +2,8 @@ import "./HomePage.css";
 import { useRef } from "react";
 
 function HomePage(): JSX.Element {
-  const imgURL = "http://35.159.16.221/images/";
-  const videoURL = "http://35.159.16.221/video/";
+  const imgURL = "http://localhost:5000/images/";
+  const videoURL = "http://localhost:5000/video/";
 
   const contentDivRef = useRef<HTMLElement | null>(null);
 

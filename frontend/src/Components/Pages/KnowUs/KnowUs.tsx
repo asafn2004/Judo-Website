@@ -9,8 +9,8 @@ import { useEffect, useRef, useState } from "react";
 
 function KnowUs(): JSX.Element {
 
-  const imgURL = "http://35.159.16.221/images/";
-  const videoURL = "http://35.159.16.221/video/";
+  const imgURL = "http://localhost:5000/images/";
+  const videoURL = "http://localhost:5000/video/";
 
   const tzevetRef = useRef<HTMLDivElement | null>(null);
   const [muted,setMuted] = useState(true);
@@ -97,7 +97,11 @@ function KnowUs(): JSX.Element {
       <img className="img2" src={imgURL + "yoelJPEG.jpeg"} alt="Yoel" style={{left:"-50px"}}/>
       <div className="text1">
          <h2 className="header1">יואל נחמיאס</h2>
-         <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
+         <p className="content1">יו"ר המרכזים לג'ודו והגנה עצמית, שופט בכיר באיגוד הג'ודו הישראלי ובעל תעודות הסמכה רבות כולל מאמן ג'ודו בכיר ממכון ויגנייט, מאמן לוחמים ועוד...
+
+יואל גידל דורות של ספורטאים, מאמנים ושופטים. מתמחה באימון אוכלוסיות בעלות צרכים מיוחדים, בעל ניסיון רב עם ספיישל אולימפיקס, עיוורים וליקויי ראיה, נכים ונוער בסיכון.
+
+יואל ממקימי ענף הג'ודו במדינת ישראל</p>
       </div>
    </div>
 </div>
@@ -106,7 +110,11 @@ function KnowUs(): JSX.Element {
       <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-45px"}}/>
       <div className="text1">
          <h2 className="header1">אסף נחמיאס</h2>
-         <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
+         <p className="content1">מנהל בפועל ומאמן ראשי במרכזים לג'ודו והגנה עצמית, אסף בעל תעודות הסמכה רבות כולל מאמן ג'ודו ומנהל מערכות ספורט מטעם וינגייט ובעל תואר ראשון במנהל עסקים מטעם רופין.
+
+אסף מתמחה באימון ילדים ובאימון תחרותי מקצועי לכל הגילאים.
+
+ גידל ואימן ספורטאים וספורטאיות אשר הגיעו להצלחה גדולה בזירת התחרויות הישראלית והבינלאומית בג'ודו.</p>
       </div>
    </div>
 </div>
@@ -147,7 +155,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel"style={{left:"-15px"}}/>
+      <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel" style={{left:"-15px"}}/>
       <div className="text">
          <h2 className="header2">אשל אלישב</h2>
          <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
@@ -156,7 +164,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src="https://images.pexels.com/photos/705425/pexels-photo-705425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""/>
+      <img className="img1" src={imgURL + "yuvalAharon1.jpeg"} alt="Yuval" />
       <div className="text">
          <h2 className="header2">יובל אהרון</h2>
          <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>

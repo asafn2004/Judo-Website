@@ -9,7 +9,7 @@ import "./Centers.css";
 
 function Centers(): JSX.Element {
 
-  const imgURL = "http://35.159.16.221/images/";
+  const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
   return (
@@ -49,8 +49,19 @@ function Centers(): JSX.Element {
               </p>
             </div>
             <p className="description">
-              Whipped steamed roast cream beans macchiato skinny grinder café.
-              Iced grinder go mocha steamed grounds cultivar panna aroma.
+            <br />
+            <u>
+          ימי שני וחמישי
+          </u>
+            <br />
+            
+            קבוצת גן ייחודית  <br />
+             כיתות א' + ב' <br />
+             כיתות ג' + ד' <br />
+             כיתות ה' + ו' <br />
+             נוער ומבוגרים  <br />
+             <br />
+            
             </p>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://tickchak.co.il/50976" className="button aButton">
@@ -86,8 +97,18 @@ function Centers(): JSX.Element {
             </div>
             {/* <br /> */}
             <p className="description">
-              Whipped steamed roast cream beans macchiato skinny grinder café.
-              Iced grinder go mocha steamed grounds cultivar panna aroma.
+            <br />
+              <u>
+          ימי ראשון, שלישי ורביעי
+          </u>
+          <br /> 
+          קבוצת גן ייחודית <br />
+             כיתות א' + ב' <br />
+             כיתות ג' + ד' <br />
+             כיתות ה' + ו' <br />
+            קבוצת בנות ייחודית <br />
+             נוער ומבוגרים <br />
+           
             </p>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://greenbook.co.il/bs2/8710/26470/" className="button aButton">
@@ -125,8 +146,15 @@ function Centers(): JSX.Element {
             </div>
             {/* <br /> */}
             <p className="description">
-              Whipped steamed roast cream beans macchiato skinny grinder café.
-              Iced grinder go mocha steamed grounds cultivar panna aroma.
+            <br />
+            <u>
+            ההצטרפות חובה על מנת להשתתף בחוגי הג'ודו
+            </u> 
+            <br /><br />
+            <u>
+רישום זה הינו חד פעמי ותופס לשנת פעילות שלמה
+</u>
+<br /><br /><br />
             </p>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://tickchak.co.il/50992" className="button aButton">
@@ -161,8 +189,16 @@ function Centers(): JSX.Element {
               </p>
             </div>
             <p className="description">
-              Whipped steamed roast cream beans macchiato skinny grinder café.
-              Iced grinder go mocha steamed grounds cultivar panna aroma.
+            <br />
+              <u>
+          ימי שישי
+          </u>
+          <br /> 
+          נבחרת צעירה:<br />
+          כיתות ב' עד ו'<br />
+          נבחרת בוגרת:<br />
+          כיתות ז' עד צבא<br />
+          <br /><br />
             </p>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://tickchak.co.il/50983" className="button aButton">
@@ -199,8 +235,17 @@ function Centers(): JSX.Element {
             </div>
             {/* <br /> */}
             <p className="description">
-              Whipped steamed roast cream beans macchiato skinny grinder café.
-              Iced grinder go mocha steamed grounds cultivar panna aroma.
+            <br />
+              <u>
+          ימי שני ורביעי
+          </u>
+          <br /> 
+          קבוצת גן ייחודית <br />
+             כיתות א' + ב' <br />
+             כיתות ג' + ד' <br />
+             כיתות ה' + ו' <br />
+              MMA נוער  <br />
+           <br />
             </p>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://www.matnasry.co.il/activities/?group=&branch=&category=&ageGroup=&free_text=%D7%92%27%D7%95%D7%93%D7%95&pageId=83" className="button aButton">
@@ -236,8 +281,16 @@ function Centers(): JSX.Element {
             </div>
             {/* <br /> */}
             <p className="description">
-              Whipped steamed roast cream beans macchiato skinny grinder café.
-              Iced grinder go mocha steamed grounds cultivar panna aroma.
+            <br />
+              <u>
+          ימי חמישי
+          </u>
+          <br /> 
+          קבוצת גן ייחודית <br />
+             כיתות א' + ב' <br />
+             כיתות ג' + ד' <br />
+             כיתות ה' + ו' <br />
+           <br /><br />
             </p>
           </div>
           <a target="_blank" rel="noopener noreferrer" href="https://tickchak.co.il/50994" className="button aButton">

@@ -141,7 +141,7 @@ box-shadow: 0 2.5px 5.5px 14px #9f9f9f;
     }
     
     .text1 {
-       bottom: -68%;
+       bottom: -87%;
        padding: 15px;
        position: absolute;
        transition: 1.0s ease-in-out;
@@ -209,7 +209,7 @@ box-shadow: 0 2.5px 5.5px 14px #9f9f9f;
           font-weight: 300;
           margin-bottom: 5px;
           position: absolute;
-          top: -425px; 
+          top: -435px; 
           left: 0;
           right: 0;
        }
@@ -284,7 +284,7 @@ box-shadow: 0 2.5px 5.5px 14px #9f9f9f;
 
  @media (max-width: 393px) {
    .cta1 .text1 {
-      bottom: -73%;
+      bottom: -95%;
    }
      
     }

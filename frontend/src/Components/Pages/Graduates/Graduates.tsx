@@ -8,12 +8,39 @@ import "./Graduates.css";
 // import yuval from "./images/graduates/yuval.png";
 
 function Graduates(): JSX.Element {
-
-  const imgURL = "http://35.159.16.221/images/";
+  const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
   // array of image sources
-  const imageFilenames = ["yoelJPEG.jpeg", "asafJPEG.jpeg", "shacharJPEG.jpeg", "eshelJPEG.jpeg"];
+  const imageFilenames = [
+    "amitBenShimon.jpeg",
+    "harelAntar.jpeg",
+    "oriSivan.jpeg",
+    "michaelMarzin.jpeg",
+    "omriZach.jpeg",
+    "itayLahmani.jpeg",
+    "nikitaKroi.jpeg",
+    "almogKami.jpeg",
+    "naftali.jpg",
+    "amirDayan.jpg",
+    "eylon1.jpg",
+     // חסר לי - נפתלי וקסלר, אילון אטיאס, מתן מאיוסט, אסף היימן
+  ];
+ 
+  const descriptions = [
+    "עמית בן שמעון",
+    "הראל ענטר",
+    "אורי סיון",
+    "מיכאל מרזין",
+    "עומרי זך",
+    "איתי לחמני",
+    "ניקיטה קרויז'ילין",
+    "אלמוג קמינר",
+    "נפתלי וקסלר",
+    "אמיר דיין",
+    "אילון בר ששת",
+    // ... descriptions for other graduates
+  ];
 
   return (
     <div className="Graduates">
@@ -26,11 +53,13 @@ function Graduates(): JSX.Element {
       {/* cards  */}
 
       <div className="coachCards">
-        <div className="row row-cols-1 row-cols-lg-3 g-5  m-0 justify-content-center">
+        <div className="row row-cols-1 row-cols-lg-4 g-5  m-0 justify-content-center">
           {imageFilenames.map((filename, index) => (
-            <div className={`col d-flex justify-content-center align-items-center fade-in-animation`}
-            key={index}
-            style={{ animationDelay: `${index * 0.4}s` }} >
+            <div
+              className={`col d-flex justify-content-center align-items-center fade-in-animation`}
+              key={index}
+              style={{ animationDelay: `${index * 0.4}s` }}
+            >
               <div className="card" style={{ width: "18rem" }}>
                 <img
                   key={index}
@@ -40,8 +69,7 @@ function Graduates(): JSX.Element {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  {descriptions[index]}
                   </p>
                 </div>
               </div>
@@ -49,7 +77,9 @@ function Graduates(): JSX.Element {
           ))}
         </div>
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <hr className="hrGraduates" />
     </div>
   );
