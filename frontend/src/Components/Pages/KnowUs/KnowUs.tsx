@@ -140,7 +140,7 @@ function KnowUs(): JSX.Element {
       <img className="img1" src={imgURL + "lital.jpeg"} alt="Lital" style={{left:"-40px"}}/>
       <div className="text">
          <h2 className="header2">ליטל אטיאס</h2>
-         <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
+         <p className="content1">תעודת מדריך ג'ודו מוינגייט, סטודנטית שנה ג לפיזיותרפיה, שירות קרבי כלוחמת ומפקדת בגדוד אריות הירדן, מתאמנת מגיל 4 , אלופת ישראל בג'ודו בגילאי הילדים, הקדטים והג'וניור כמה פעמים ברציפות, חברת נבחרת ישראל נשים לשעבר, מאמנת בעיקר בפנימיות של נוער בסיכון</p>
       </div>
    </div>
 </div>

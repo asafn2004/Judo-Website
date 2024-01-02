@@ -45,8 +45,13 @@
 .socialMedia img{
     width: 40px;
     margin: 0.5rem;
-
+    transition: transform 0.3s;
 }
+
+.socialMedia img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3); 
+  }
 
 .sb_footer-links_div h4{
     font-size: 35px;

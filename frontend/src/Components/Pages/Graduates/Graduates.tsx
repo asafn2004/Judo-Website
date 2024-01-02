@@ -21,9 +21,10 @@ function Graduates(): JSX.Element {
     "itayLahmani.jpeg",
     "nikitaKroi.jpeg",
     "almogKami.jpeg",
-    "naftali.jpg",
+    "naftali1.jpeg",
     "amirDayan.jpg",
     "eylon1.jpg",
+    "matanMayost.jpeg",
      // חסר לי - נפתלי וקסלר, אילון אטיאס, מתן מאיוסט, אסף היימן
   ];
  
@@ -39,6 +40,7 @@ function Graduates(): JSX.Element {
     "נפתלי וקסלר",
     "אמיר דיין",
     "אילון בר ששת",
+    "מתן מאיוסט",
     // ... descriptions for other graduates
   ];
 
@@ -58,9 +60,9 @@ function Graduates(): JSX.Element {
             <div
               className={`col d-flex justify-content-center align-items-center fade-in-animation`}
               key={index}
-              style={{ animationDelay: `${index * 0.4}s` }}
+              style={{ animationDelay: `${index * 0.3}s` }}
             >
-              <div className="card" style={{ width: "18rem" }}>
+              <div className="card" style={{ width: "24rem" }}>
                 <img
                   key={index}
                   src={imgURL + filename}
