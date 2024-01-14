@@ -61,9 +61,13 @@
 
 .image3{
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 65% 100%);
-
 }
 
+.image1, .image2, .image3 {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
 
 .card-titleZ1 {
     /* padding-right: 120px;  */

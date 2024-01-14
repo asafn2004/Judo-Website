@@ -67,7 +67,7 @@ function HomePage(): JSX.Element {
           <div className="row g-0 justify-content-end ms-0 me-0">
             <div className="col-lg-6">
               <img
-                src={imgURL + "avivGan.jpg"}
+                src={imgURL + "avivGan.JPG"}
                 className="img-fluid image1"
                 alt="Kindergarten Judo"
                 // style={{ height: "100%", width: "100%"}}
