@@ -20,7 +20,7 @@ function Footer(): JSX.Element {
     e.preventDefault();
     // Send form data to asafn2004@gmail.com
     try {
-      const response = await axios.post("http://localhost:5000/api/sendEmail", {
+      const response = await axios.post("http://3.70.229.210/api/sendEmail", {
         name,
         pNumber,
         email,
