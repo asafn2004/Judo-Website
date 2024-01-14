@@ -20,22 +20,22 @@ server.use(express.json());
 server.use("/images", express.static("images"));
 server.use("/video", express.static("video"));
 
-// //use the build files
-// const _dirname = path.dirname("");
-// const buildPath = path.join(_dirname, "../frontend/build");
+//use the build files
+const _dirname = path.dirname("");
+const buildPath = path.join(_dirname, "../frontend/build");
 
-// server.use(express.static(buildPath));
+server.use(express.static(buildPath));
 
-// server.get("/*", function (req, res) {
-//   res.sendFile(
-//     path.join(__dirname, "../frontend/build/index.html"),
-//     function (err) {
-//       if (err) {
-//         res.status(500).send(err);
-//       }
-//     }
-//   );
-// });
+server.get("/*", function (req, res) {
+  res.sendFile(
+    path.join(__dirname, "../frontend/build/index.html"),
+    function (err) {
+      if (err) {
+        res.status(500).send(err);
+      }
+    }
+  );
+});
 
 //using routes => localhost:5000/api/v1
 server.use("/api/", sendEmailRouter);
