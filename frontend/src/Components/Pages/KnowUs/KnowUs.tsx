@@ -114,7 +114,7 @@ function KnowUs(): JSX.Element {
 
 אסף מתמחה באימון ילדים ובאימון תחרותי מקצועי לכל הגילאים.
 
- גידל ואימן ספורטאים וספורטאיות אשר הגיעו להצלחה גדולה בזירת התחרויות הישראלית והבינלאומית בג'ודו.</p>
+ גידל ואימן ספורטאים וספורטאיות אשר הגיעו להצלחה גדולה בזירת התחרויות הישראלית והבינלאומית בג'ודו</p>
       </div>
    </div>
 </div>
@@ -149,7 +149,13 @@ function KnowUs(): JSX.Element {
       <img className="img1" src={imgURL + "shacharJPEG.jpeg"} alt="Shachar" style={{left:"-40px"}}/>
       <div className="text">
          <h2 className="header2">שחר שגיא</h2>
-         <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
+         <p className="content1">מאמנת מוסמכת ע״י מכון וינגייט 
+מעסה רפואית וספורטאים במכללת כרכור ובבית ספר למקצועות הטיפול בתא . 
+המעסה של נבחרת ישראל נשים- סגל אולימפי בג׳ודו . 
+התחלתי להתאמן בגיל 4 והפסקתי להתחרות בגיל 21 . 
+אלופת ישראל מ-2008-2014 מגילאי הילדות ועד הבוגרות 
+<br />
+חגורה שחורה </p>
       </div>
    </div>
 </div>
