@@ -12,7 +12,8 @@ function Footer(): JSX.Element {
   const [reason, setReason] = useState("");
   const [email, setEmail] = useState("");
 
-  const imgURL = "http://localhost:5000/images/";
+  const imgURL = "http://3.70.229.210/images/";
+  // const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
   const handleSubmit = async (e: any) => {

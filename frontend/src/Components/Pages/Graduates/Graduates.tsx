@@ -8,7 +8,8 @@ import "./Graduates.css";
 // import yuval from "./images/graduates/yuval.png";
 
 function Graduates(): JSX.Element {
-  const imgURL = "http://localhost:5000/images/";
+  const imgURL = "http://3.70.229.210/images/";
+  // const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
   // array of image sources

@@ -2,7 +2,8 @@ import "./Navbarz.css";
 import { NavLink } from "react-router-dom";
 
 function Navbarz(): JSX.Element {
-  const imgURL = "http://localhost:5000/images/";
+  const imgURL = "http://3.70.229.210/images/";
+  // const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
 
