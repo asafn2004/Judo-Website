@@ -9,7 +9,7 @@ import "./Centers.css";
 
 function Centers(): JSX.Element {
 
-  const imgURL = "http://3.70.229.210/images/";
+  const imgURL = "http://judocenters.com/images/";
   // const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 

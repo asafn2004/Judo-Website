@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 function HomePage(): JSX.Element {
   // const imgURL = "http://localhost:5000/images/";
-  const imgURL = "judocenters.com/images/";
+  const imgURL = "http://judocenters.com/images/";
   // const videoURL = "http://localhost:5000/video/";
   const videoURL = "http://judocenters.com/video/";
 

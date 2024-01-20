@@ -11,8 +11,8 @@ function KnowUs(): JSX.Element {
 
   // const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
-  const imgURL = "http://3.70.229.210/images/";
-  const videoURL = "http://3.70.229.210/video/";
+  const imgURL = "http://judocenters.com/images/";
+  const videoURL = "http://judocenters.com/video/";
 
   const tzevetRef = useRef<HTMLDivElement | null>(null);
   const [muted,setMuted] = useState(true);
