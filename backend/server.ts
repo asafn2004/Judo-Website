@@ -18,12 +18,6 @@ server.use(express.json());
 
 //static images and videos from the backend
 server.use("/images", express.static("images"));
-// Enable range requests
-server.use("/video", (req, res, next) => {
-  res.set("Accept-Ranges", "bytes"); 
-  res.set("Connection", "Keep-Alive");  
-  next();
-});
 server.use("/video", express.static("video"));
 
 //use the build files
