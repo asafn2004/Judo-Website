@@ -64,7 +64,7 @@ function HomePage(): JSX.Element {
       <section className="contentDiv " ref={contentDivRef}>
        
         <div className="card1 ">
-          <div className="row g-0 justify-content-end ms-0 me-0">
+          <div className="row g-0 justify-content-end ms-0 me-2">
             <div className="col-lg-6">
               <img
                 src={imgURL + "avivGan.JPG"}
@@ -103,7 +103,7 @@ function HomePage(): JSX.Element {
           </div>
         </div>
         <div className="card2 mb-0  ">
-          <div className="row g-0 ms-0 me-0">
+          <div className="row g-0 ms-0 me-2">
             <div className="col-lg-6">
               <div className="card-body mt-5">
                 <h5 className="card-titleY2">
