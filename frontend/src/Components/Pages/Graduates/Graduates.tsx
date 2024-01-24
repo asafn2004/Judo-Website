@@ -14,20 +14,21 @@ function Graduates(): JSX.Element {
 
   // array of image sources
   const imageFilenames = [
-    "amitBenShimon.jpeg",
-    "harelAntar.jpeg",
-    "oriSivan.jpeg",
-    "michaelMarzin.jpeg",
-    "omriZach.jpeg",
-    "itayLahmani.jpeg",
-    "nikitaKroi.jpeg",
-    "almogKami.jpeg",
-    "naftali1.jpeg",
-    "amirDayan.jpg",
-    "eylon1.jpg",
-    "matanMayost.jpeg",
+    "amitBenShimon.png",
+    "harelAntar.png",
+    "oriSivan.png",
+    "michaelMarzin.png",
+    "omriZach.png",
+    "itayLahmani.png",
+    "nikitaKroi.png",
+    "almogKami.png",
+    "naftali1.png",
+    "amirDayan.png",
+    "eylon12.png",
+    "matanMayost.png",
      // חסר לי - נפתלי וקסלר, אילון אטיאס, מתן מאיוסט, אסף היימן
   ];
+
  
   const descriptions = [
     "עמית בן שמעון",
