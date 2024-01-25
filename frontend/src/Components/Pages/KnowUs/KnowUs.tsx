@@ -96,7 +96,7 @@ function KnowUs(): JSX.Element {
         <div className="parentDiv">
       <div className="container1">
    <div className="cta1">
-      <img className="img2" src={imgURL + "yoelJPEG.jpeg"} alt="Yoel" style={{left:"-50px"}}/>
+      <img className="img2" src={imgURL + "yoelJPEG.jpeg"} alt="Yoel" style={{left:"-50px", top:"-35px"}}/>
       <div className="text1">
          <h2 className="header1">יואל נחמיאס</h2>
          <p className="content1">יו"ר המרכזים לג'ודו והגנה עצמית, שופט בכיר באיגוד הג'ודו הישראלי ובעל תעודות הסמכה רבות כולל מאמן ג'ודו בכיר ממכון ויגנייט, מאמן לוחמים ועוד...
@@ -109,7 +109,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta1">
-      <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-45px"}}/>
+      <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-95px"}}/>
       <div className="text1">
          <h2 className="header1">אסף נחמיאס</h2>
          <p className="content1">מנהל בפועל ומאמן ראשי במרכזים לג'ודו והגנה עצמית, אסף בעל תעודות הסמכה רבות כולל מאמן ג'ודו ומנהל מערכות ספורט מטעם וינגייט ובעל תואר ראשון במנהל עסקים מטעם רופין.
@@ -139,7 +139,7 @@ function KnowUs(): JSX.Element {
       </div>
 <div className="container1" ref={tzevetRef}>
    <div className="cta">
-      <img className="img1" src={imgURL + "lital.jpeg"} alt="Lital" style={{left:"-40px"}}/>
+      <img className="img1" src={imgURL + "lital.jpeg"} alt="Lital" style={{left:"-40px", top:"-15px"}}/>
       <div className="text">
          <h2 className="header2">ליטל אטיאס</h2>
          <p className="content1">תעודת מדריך ג'ודו מוינגייט, סטודנטית שנה ג לפיזיותרפיה, שירות קרבי כלוחמת ומפקדת בגדוד אריות הירדן, מתאמנת מגיל 4 , אלופת ישראל בג'ודו בגילאי הילדים, הקדטים והג'וניור כמה פעמים ברציפות, חברת נבחרת ישראל נשים לשעבר, מאמנת בעיקר בפנימיות של נוער בסיכון</p>
@@ -148,7 +148,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src={imgURL + "shacharJPEG.jpeg"} alt="Shachar" style={{left:"-40px", top:"-40px"}}/>
+      <img className="img1" src={imgURL + "shacharJPEG.jpeg"} alt="Shachar" style={{left:"-40px", top:"-50px"}}/>
       <div className="text">
          <h2 className="header2">שחר שגיא</h2>
          <p className="content1">מאמנת מוסמכת ע״י מכון וינגייט 
@@ -163,7 +163,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel" style={{left:"-15px", top:"-40px"}}/>
+      <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel" style={{left:"-15px", top:"-60px"}}/>
       <div className="text">
          <h2 className="header2">אשל אלישב</h2>
          <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
