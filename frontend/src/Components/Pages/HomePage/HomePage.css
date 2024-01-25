@@ -176,6 +176,12 @@
       .card2 > .row {
         display: none; 
       }
+
+      .card-titleZ1 , .card-miniTitleZ1, .card-textZ1,
+      .card-titleY2 , .card-miniTitleY2, .card-textY2,
+      .card-titleZ3 , .card-miniTitleZ3, .card-textZ3  {
+       padding: 15px;
+      }
   }
 
 /* Styles for iPads */

@@ -199,7 +199,7 @@ function HomePage(): JSX.Element {
               />
             </div>
             <div className="col-lg-5">
-              <div className="card-body mt-5 me-4">
+              <div className="card-body mt-5 me-2">
                 <h5 className="card-titleZ3">
                   נוער ומבוגרים
                   <br /> ג'ודו תחרותי והגנה עצמית
