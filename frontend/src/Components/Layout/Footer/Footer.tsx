@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Footer.css";
+import toast, { Toaster } from 'react-hot-toast';
 // import facebook from "./images/facebook.png";
 // import instagram from "./images/instagram.png";
 // import tiktok from "./images/tik-tok.png";
@@ -27,16 +28,32 @@ function Footer(): JSX.Element {
         reason
       });
 
-      console.log(response.data);
-    } catch (error) {
-      console.log(error);
+    // Handle success:
+    // - Moved this block outside the `.then` as it's already within the `try` block
+    // - Added check for `response.data.message` before displaying it
+    if (response.data.message) {
+      toast.success('נשלח בהצלחה !'); // Simple alert example
+      // You can implement a more visually appealing popup here
+    } else {
+      console.log("Response data missing a message field.");
     }
+      
+      console.log(response.data);
 
-    // reset inputs 
+        // Reset inputs after successful submission:
     setName('');
-    setPNumber(''); 
+    setPNumber('');
     setEmail('');
     setReason('');
+
+
+    } catch (error) {
+      console.log(error);
+
+        // Handle errors:
+    // - Inform the user about the error
+    toast.error('אירעה שגיאה בעת שליחת האימייל, בבקשה נסה שוב מאוחר יותר.');
+    }
   };
 
  
@@ -221,6 +238,10 @@ function Footer(): JSX.Element {
               />
 
               <button type="submit">שליחה</button>
+              <Toaster
+                position="bottom-right"
+                reverseOrder={false}
+              />
             </form>
           </div>
         </div>
