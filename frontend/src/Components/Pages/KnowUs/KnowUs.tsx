@@ -109,7 +109,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta1">
-      <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-65px"}}/>
+      <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-50px"}}/>
       <div className="text1">
          <h2 className="header1">אסף נחמיאס</h2>
          <p className="content1">מנהל בפועל ומאמן ראשי במרכזים לג'ודו והגנה עצמית, אסף בעל תעודות הסמכה רבות כולל מאמן ג'ודו ומנהל מערכות ספורט מטעם וינגייט ובעל תואר ראשון במנהל עסקים מטעם רופין.
