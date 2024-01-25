@@ -96,12 +96,12 @@ function KnowUs(): JSX.Element {
         <div className="parentDiv">
       <div className="container1">
    <div className="cta1">
-      <img className="img2" src={imgURL + "yoelJPEG.jpeg"} alt="Yoel" style={{left:"-50px", top:"-35px"}}/>
+      <img className="img2" src={imgURL + "yoelJPEG.jpeg"} alt="Yoel" style={{left:"-40px", top:"-35px"}}/>
       <div className="text1">
          <h2 className="header1">יואל נחמיאס</h2>
          <p className="content1">יו"ר המרכזים לג'ודו והגנה עצמית, שופט בכיר באיגוד הג'ודו הישראלי ובעל תעודות הסמכה רבות כולל מאמן ג'ודו בכיר ממכון ויגנייט, מאמן לוחמים ועוד...
 
-יואל גידל דורות של ספורטאים, מאמנים ושופטים. מתמחה באימון אוכלוסיות בעלות צרכים מיוחדים, בעל ניסיון רב עם ספיישל אולימפיקס, עיוורים וליקויי ראיה, נכים ונוער בסיכון.
+יואל גידל דורות של ספורטאים, מאמנים ושופטים. מומחה באימון אוכלוסיות בעלות צרכים מיוחדים, ספיישל אולימפיקס, נכים ונוער בסיכון.
 
 יואל ממקימי ענף הג'ודו במדינת ישראל</p>
       </div>
@@ -109,7 +109,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta1">
-      <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-95px"}}/>
+      <img className="img2" src={imgURL + "asafJPEG.jpeg"} alt="Asaf" style={{left:"-35px", top:"-75px"}}/>
       <div className="text1">
          <h2 className="header1">אסף נחמיאס</h2>
          <p className="content1">מנהל בפועל ומאמן ראשי במרכזים לג'ודו והגנה עצמית, אסף בעל תעודות הסמכה רבות כולל מאמן ג'ודו ומנהל מערכות ספורט מטעם וינגייט ובעל תואר ראשון במנהל עסקים מטעם רופין.
