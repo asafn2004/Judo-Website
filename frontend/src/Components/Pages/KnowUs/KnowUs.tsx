@@ -148,7 +148,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src={imgURL + "shacharJPEG.jpeg"} alt="Shachar" style={{left:"-40px"}}/>
+      <img className="img1" src={imgURL + "shacharJPEG.jpeg"} alt="Shachar" style={{left:"-40px", top:"-40px"}}/>
       <div className="text">
          <h2 className="header2">שחר שגיא</h2>
          <p className="content1">מאמנת מוסמכת ע״י מכון וינגייט 
@@ -163,7 +163,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel" style={{left:"-15px"}}/>
+      <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel" style={{left:"-15px", top:"-40px"}}/>
       <div className="text">
          <h2 className="header2">אשל אלישב</h2>
          <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
@@ -172,7 +172,7 @@ function KnowUs(): JSX.Element {
 </div>
 <div className="container1">
    <div className="cta">
-      <img className="img1" src={imgURL + "yuvalAharon1.jpeg"} alt="Yuval" />
+      <img className="img1" src={imgURL + "yuvalAharon1.jpeg"} alt="Yuval" style={{left:"-15px"}}/>
       <div className="text">
          <h2 className="header2">יובל אהרון</h2>
          <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>

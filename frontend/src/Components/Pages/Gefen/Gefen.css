@@ -8,8 +8,10 @@
     justify-content: center;
     text-align: center;
     background: #c13327;
-background: -webkit-radial-gradient(circle, #c13327 0%, #f5f5f5 100%);
-background: radial-gradient(circle, #c13327 0%, #f5f5f5 100%);
+/* background: -webkit-radial-gradient(circle, #c13327 0%, #f5f5f5 100%);
+background: radial-gradient(circle, #c13327 0%, #f5f5f5 100%); */
+background: rgb(245,245,245);
+background: radial-gradient(circle, rgba(245,245,245,0) 25%, rgba(193,51,39,0.31416316526610644) 100%);
  }
  
  .glitch6 {
@@ -20,6 +22,7 @@ background: radial-gradient(circle, #c13327 0%, #f5f5f5 100%);
     color: #000;
     letter-spacing: 5px;
     z-index: 1;
+    opacity: 0.7;
  }
 
 .Gefen {
