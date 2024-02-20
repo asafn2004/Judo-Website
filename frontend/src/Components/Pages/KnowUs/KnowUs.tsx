@@ -166,7 +166,14 @@ function KnowUs(): JSX.Element {
       <img className="img1" src={imgURL + "eshelJPEG.jpeg"} alt="Eshel" style={{left:"-15px", top:"-60px"}}/>
       <div className="text">
          <h2 className="header2">אשל אלישב</h2>
-         <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
+         <p className="content1">
+מדריך ג'ודו מוסמך מטעם מכון וינגייט, 
+בעל תואר שני בביולוגיה מהטכניון,
+חובש קרבי במילואים ביחידה מובחרת.
+התחלתי להתאמן בגיל 6 והפסקתי להתחרות בגיל 20,  
+אלוף ישראל בג'ודו לשעבר, 
+בעל חגורה שחורה.
+</p>
       </div>
    </div>
 </div>
@@ -175,7 +182,13 @@ function KnowUs(): JSX.Element {
       <img className="img1" src={imgURL + "yuvalAharon1.jpeg"} alt="Yuval" style={{left:"-15px"}}/>
       <div className="text">
          <h2 className="header2">יובל אהרון</h2>
-         <p className="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus temporibus voluptates exercitationem, ipsa officiis a animi esse explicabo repudiandae in, blanditiis cum quam magni? Voluptates illum earum praesentium veniam.</p>
+         <p className="content1">
+         מדריך ג'ודו מוסמך מטעם מכון וינגייט,
+מאמן מנטאלי לספורטאים המתחרים בארץ ובתחרויות בינלאומיות. 
+בוגר ומדריך ביו פידבק מטעם אוניברסיטת בר אילן.
+התחלתי להתאמן בג'ודו מגיל 6 והפסקתי להתחרות בגיל 25. 
+בעל חגורה שחורה.
+         </p>
       </div>
    </div>
 </div>
