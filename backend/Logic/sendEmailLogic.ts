@@ -1,26 +1,18 @@
 // logic/emailLogic.js
 import { Request, Response } from 'express';
 import nodemailer from "nodemailer";
-import sgTransport from 'nodemailer-sendgrid-transport';
 
 const sendEmail = async (req: Request, res: Response) => {
   const { name, pNumber, email, reason } = req.body;
 
   // Create Nodemailer transport
-  const transporter = nodemailer.createTransport(
-    sgTransport({
-      auth: {
-        api_key: process.env.SENDGRID_API_KEY,
-      },
-    })
-  );
-  // const transporter = nodemailer.createTransport({
-  //   service: "gmail",
-  //   auth: {
-  //     user: process.env.EMAIL_USER,
-  //     pass: process.env.EMAIL_PASS,
-  //   },
-  // });
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
+    },
+  });
 
   // Compose options
   const mailOptions = {
