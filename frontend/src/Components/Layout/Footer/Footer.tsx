@@ -21,7 +21,7 @@ function Footer(): JSX.Element {
     e.preventDefault();
     // Send form data to asafn2004@gmail.com
     try {
-      const response = await axios.post("http://judocenters.com/api/sendEmail", {
+      const response = await axios.post("https://judocenters.com/api/sendEmail", {
         name,
         pNumber,
         email,
