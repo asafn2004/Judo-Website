@@ -12,7 +12,7 @@ import { Keyboard, Grid, Pagination, Navigation } from 'swiper/modules';
 
 function Events(): JSX.Element {
 
-  const imgURL = "http://judocenters.com/images/Events/";
+  const imgURL = "https://judocenters.com/images/Events/";
   // const imgURL = "http://localhost:5000/images/Events/";
 
     return (
