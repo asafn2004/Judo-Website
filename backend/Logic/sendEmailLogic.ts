@@ -8,7 +8,7 @@ const sendEmail = async (req: Request, res: Response) => {
   // Create Nodemailer transport
   const transporter = nodemailer.createTransport({
     host: "live.smtp.mailtrap.io",
-    port: 25,
+    port: 587,
     auth: {
       user: "api",
       pass: "512770fd0ab44a663cd985274124f57e"
@@ -17,7 +17,7 @@ const sendEmail = async (req: Request, res: Response) => {
 
   // Compose options
   const mailOptions = {
-    from: "asafn2004@gmail.com",
+    from: "mailtrap@demomailtrap.com",
     to: "asafn2004@gmail.com",
     subject: "New message from Judo Website",
     text: `
