@@ -3,9 +3,9 @@ import { useRef } from "react";
 
 function HomePage(): JSX.Element {
   // const imgURL = "http://localhost:5000/images/";
-  const imgURL = "https://judocenters.com/images/";
+  const imgURL = "http://judocenters.com/images/";
   // const videoURL = "http://localhost:5000/video/";
-  const videoURL = "https://judocenters.com/video/";
+  const videoURL = "http://judocenters.com/video/";
 
   const contentDivRef = useRef<HTMLElement | null>(null);
 

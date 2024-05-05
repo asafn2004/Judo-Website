@@ -8,7 +8,7 @@ import "./Graduates.css";
 // import yuval from "./images/graduates/yuval.png";
 
 function Graduates(): JSX.Element {
-  const imgURL = "https://judocenters.com/images/";
+  const imgURL = "http://judocenters.com/images/";
   // const imgURL = "http://localhost:5000/images/";
   // const videoURL = "http://localhost:5000/video/";
 
