@@ -7,10 +7,11 @@ const sendEmail = async (req: Request, res: Response) => {
 
   // Create Nodemailer transport
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    host: "live.smtp.mailtrap.io",
+    port: 25,
     auth: {
-      user:  process.env.EMAIL_USER, 
-      pass: process.env.EMAIL_PASS,
+      user: "api",
+      pass: "512770fd0ab44a663cd985274124f57e"
     },
   });
 
@@ -40,5 +41,4 @@ const sendEmail = async (req: Request, res: Response) => {
 
 
 export default sendEmail;
-
 
