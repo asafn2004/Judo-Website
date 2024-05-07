@@ -209,11 +209,11 @@ function KnowUs(): JSX.Element {
         loop
         playsInline
         muted={muted}
-        controls={true}
+        controls={false}
       />
-  {/* <button onClick={handleMute} className="muteButton">
+  <button onClick={handleMute} className="muteButton">
 {muted ? (<MuteIcon />) : (<UnMuteIcon />)} 
-</button> */}
+</button>
 </div>
      
       <br /><br /><br />
