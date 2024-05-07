@@ -211,9 +211,9 @@ function KnowUs(): JSX.Element {
         muted={muted}
         controls={true}
       />
-  <button onClick={handleMute} className="muteButton">
+  {/* <button onClick={handleMute} className="muteButton">
 {muted ? (<MuteIcon />) : (<UnMuteIcon />)} 
-</button>
+</button> */}
 </div>
      
       <br /><br /><br />
