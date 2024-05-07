@@ -208,7 +208,7 @@ function KnowUs(): JSX.Element {
         src={videoURL + "tadmit.mp4"}
         loop
         playsInline
-        muted={muted}
+        // muted={muted}
         controls={false}
       />
   <button onClick={handleMute} className="muteButton">
