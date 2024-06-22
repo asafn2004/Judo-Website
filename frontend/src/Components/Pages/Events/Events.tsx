@@ -42,7 +42,7 @@ function Events(): JSX.Element {
         
         
       >
-        <SwiperSlide className="overflow-auto"><img src={imgURL + "comp260124.jpg"} alt="תחרות ג'ודו ראשונה לעונה זו" className="event1" /></SwiperSlide>
+        <SwiperSlide className="overflow-auto"><img src={imgURL + "gavia_event.jpg"} alt="תחרות ג'ודו ראשונה לעונה זו" className="event1" /></SwiperSlide>
         {/* <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
